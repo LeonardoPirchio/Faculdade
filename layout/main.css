@@ -211,7 +211,7 @@ li {
     position: absolute;
     width: inherit;
     height: inherit;
-    background-image: url("./img/Imagem.jpg");
+    background-image: url("https://leonardopirchio.github.io/Faculdade/img/Imagem.jpg");
     background-size: cover;
     background-position: center;
     filter: brightness(0.3);
