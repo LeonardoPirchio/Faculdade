@@ -1,0 +1,219 @@
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-col, .middle-col, .right-col, .full-col{
+      height: 100vh;
+      margin: 0;
+  }
+  .width-0{
+      width: 0;
+  }
+  .width-33{
+      width: 33.33%;
+  }
+  .width-66{
+      width: 66.66%;
+  }
+  .width-100{
+      width: 100%;
+  }
+
+  /* .left-col, .middle-col, .right-col {
+    background-color: #000;
+  } */
+
+  /* #landing-page .full-col{
+      background-color: grey;
+  }
+  #rooms .left-col{
+      background-color: red;
+  }
+  #rooms .right-col{
+      background-color: #000;
+  }
+  #you .middle-col{
+      background-color: green;
+  }
+  #you .left-col,
+  #you .right-col{
+      background-color: palegreen;
+  }
+  #near .right-col{
+      background-color: blue;
+  }
+  #near .left-col{
+      background-color: lightblue;
+  } */
+  footer{
+      background-color:  black;
+      color:  white;
+  }
+  
+/* ========================
+* ===== Configurações =====
+=========================== */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    margin: initial;
+    padding: inherit;
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+section,
+footer {
+    display: flex;
+    height: 100vh;
+    width:  100%;
+}
+
+/* ========================
+* ======== Letras =========
+=========================== */
+@media screen and (min-width: 480px) {
+  body {
+    font-size: 1.6125rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.9125rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* body {
+        font-size: 2.2125rem;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+  /* body {
+        font-size: 2.5125rem;
+    } */
+}
+
+::selection {
+    color: inherit;
+    background: inherit;
+}
+
+/* ========================
+* ======== Títulos ========
+=========================== */
+
+h1,
+h2 {
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+    /* color: #FFF; */
+}
+
+h1 {
+    width: min-content;
+    font-size: 1.8em;
+    border-bottom: 2px solid #FFF;
+}
+
+h2 {
+    font-size: 1em;
+    line-height: 2.2em;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #FFF;
+    }
+
+span {
+    font-size: 1rem;
+    /* font-weight: 600; */
+    text-decoration: none;
+    line-height: 2.4rem;
+    /* margin-bottom: 1em; */
+    color: #FFF;
+}
+
+a {
+    /* font-family: 'Product Sans'; */
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 2.4rem;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.4rem;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+ul,
+li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    list-style: none;
+    /* margin-bottom: 1em; */
+    color: #fff;
+}
+
+/* ========================
+* =====  Background   =====
+=========================== */
+.hero2 {
+    background-color: #ffE5CC;
+}
+
+.hero3 {
+    background-color: #fcffcc;
+}
+
+.hero4 {
+    background-color: #e7ffcc;
+}
+
+/* ========================
+* =====    Inicio     =====
+=========================== */
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-image: url("/img/Imagem.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    z-index: -10;
+}
